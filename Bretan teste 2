@@ -8,7 +8,8 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
+<body class="tema-escuro"></body>
+    <header>
 <h1>Meu blog tech</h1>
 <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
 </header>
@@ -24,12 +25,13 @@
 </div>
 </article>
 <article>
-    <img src="https://img.magnific.com/vetores-gratis/traffic-lights-realistic_1284-4985.jpg?semt=ais_test_b&w=740&q=80" 
-         alt="Descrição da imagem para acessibilidade">
+    <img src="traffic-lights-realistic_1284-4985.avif" 
+         alt="Sinaleiro bem daora">
     <div>
         <h2>Como hackear o sinaleiro</h2>
         <p class="artigo-autor">Por: Bretan Salgueiro</p>
         <p>Sabia que sinaleiros de estrada possuem sistemas eletrónicos que podem ser acessados? Isso obviamente é ilegal, porém....</p>
+        <p class="artigo-fonte">Fonte: <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" target="_blank"> Sounds from my mind</a></p>
         <button>❤️<span>0</span></button>
         <button>👍<span>0</span></button>
     </div>
@@ -39,18 +41,43 @@
 </body>
 </html>
 
-#Style css
+Style CSS
+:root {
+    --cor-primaria: #183C63;
+    --cor-fundo: #ffffff;
+    --cor-botao: #f9f9f9;
+    --cor-texto: #ffffff;
+    
+     .tema-escuro {
+    --cor-primaria: #c9e3ff;
+    --cor-fundo: #151428;
+    --cor-texto: #ffffff;
+    --cor-constraste: #000000;    
+}
+    .tema-escuro a {
+    color: var(--cor-primaria)
+}
+    .tema-escuro p {
+     color: var(--cor-texto)
+}
+}
+
+
 header {
-    background-color: #183C63;
-    color: #FFFFFF;
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto-2);
     text-align: center;
     margin: 0 auto;
     padding: 16px;
+
+}
+.tema-escuro header p {
+    color: var(--cor-contraste);
 }
 
 main {
-    background-color: #FFFFFF;
-    color: #183C63;
+    background-color:var(--cor-fundo);
+    color: var(--cor-primaria);
     margin: 0 auto;
     padding: 16px;
     display: flex;
@@ -64,7 +91,7 @@ article {
     align-items: center;
     text-align: center;
     justify-content: center;
-    border: 1px solid #183C63;
+    border: 1px solid var(--cor-primaria);
     margin: 16px;
     gap: 16px;
     padding: 16px;

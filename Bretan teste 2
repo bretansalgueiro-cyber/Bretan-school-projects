@@ -11,15 +11,29 @@
 <header>
 <h1>Meu blog tech</h1>
 <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
-<img src="images.jpeg" alt="Imagens geradas de alta qualidade de espaços de trabalho modernos com laptops e smartphones, laboratórios de IA com robôs e telas, ou pessoas interagindo com tecnologia no dia a dia.">
 </header>
 <main>
-<div>
+<article>
+<img src="technology.jpeg" alt="Imagens geradas de alta qualidade de espaços de trabalho modernos com laptops e smartphones, laboratórios de IA com robôs e telas, ou pessoas interagindo com tecnologia no dia a dia.">
+    <div>
 <h2>Meu primeiro post</h2>
 <p class="artigo-autor">Por: Bretan Salgueiro </p>
 <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
-</div>
 <button>❤️<span>0</span></button>
+<button>👍<span>0</span></button>
+</div>
+</article>
+<article>
+    <img src="https://img.magnific.com/vetores-gratis/traffic-lights-realistic_1284-4985.jpg?semt=ais_test_b&w=740&q=80" 
+         alt="Descrição da imagem para acessibilidade">
+    <div>
+        <h2>Como hackear o sinaleiro</h2>
+        <p class="artigo-autor">Por: Bretan Salgueiro</p>
+        <p>Sabia que sinaleiros de estrada possuem sistemas eletrónicos que podem ser acessados? Isso obviamente é ilegal, porém....</p>
+        <button>❤️<span>0</span></button>
+        <button>👍<span>0</span></button>
+    </div>
+</article>
 </main>
 <script src="script.js"></script>
 </body>
@@ -74,3 +88,8 @@ botoes.forEach(function (botao) {
         }
     }
 });
+
+Imagens:
+https://blog.feedspot.com/wp-content/uploads/2016/08/technology.jpeg
+
+https://img.magnific.com/vetores-gratis/traffic-lights-realistic_1284-4985.jpg?semt=ais_test_b&w=740&q=80

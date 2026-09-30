@@ -1,0 +1,120 @@
+Index.html
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>blog</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+<h1>Mapa da Fortaleza do Mel</h1>
+        <img src="4944e592-d3c3-44e9-8dea-800d5b61d46e.jpeg"Workplace" usemap="#workmap">
+
+<map name="workmap">
+    <div>
+        <h2>Pontos Importantes</h2>
+        <p>Caracteristicas sobre os locais da aventura.</p>
+        <p class="artigo-fonte"> <a href="" target="_blank"> Farol do Crepusculo</p>
+        <p class="artigo-fonte"> <a href="" target="_blank"> Gruta Sussurante</p>
+        <p class="artigo-fonte"> <a href="" target="_blank"> Fortaleza Sentinela</p>
+        
+        </div>
+        </div>
+        </div>
+    </map>
+    </header>
+
+Style.CSs
+
+:root {
+    --cor-primaria: #183C63;
+    --cor-fundo: #ffffff;
+    --cor-botao: #f9f9f9;
+    --cor-texto: #ffffff;
+    --cor-pão: #b37474;
+    --cor-ilha: #C2B280;
+    .tema-escuro {
+    --cor-primaria: #c9e3ff;
+    --cor-fundo: #151428;
+    --cor-texto: #030303;
+    --cor-constraste: #000000;    
+    --cor-texto-2: #ffffff;
+} 
+    .tema-escuro a {
+     color: var(--cor-pão)
+}
+    --fonte-texto: 'Segoe UI', sans-serif;
+}
+
+
+header {
+    background-color: var(--cor-pão);
+
+}
+header {
+    background-color: var(--cor-ilha);
+    color: var(--cor-texto);
+    text-align: center;
+    margin: 0 auto;
+    padding: 16px;
+
+}
+
+
+main {
+    background-color:var(--cor-fundo);
+    color: var(--cor-texto-2);
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    box-shadow: 0 2px 6px rgba(1, 1, 1, 1.6);
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+    flex: 1 1 25%;
+}
+img {
+    width: 700px;
+    height: 700px;
+}
+
+.artigo-autor {
+    font-weight: bold;
+}
+
+body {
+    max-width: 100vw;
+    font-family: var(--fonte-texto);
+}
+
+.btn-tema-escuro {
+    position: fixed;
+    bottom: 16px; 
+    right: 16px; 
+    font-size: 32px;
+    padding: 12px; 
+    background-color: var(--cor-primaria); 
+    border-radius: 50%; 
+    border: none; 
+    cursor: pointer;
+}
+
+ * {
+    transition: background-color 1s ease;
+}
+

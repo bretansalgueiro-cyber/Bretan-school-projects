@@ -18,15 +18,75 @@ Index.html
     <div>
         <h2>Pontos Importantes</h2>
         <p>Caracteristicas sobre os locais da aventura.</p>
-        <p class="artigo-fonte"> <a href="" target="_blank"> Farol do Crepusculo</p>
-        <p class="artigo-fonte"> <a href="" target="_blank"> Gruta Sussurante</p>
-        <p class="artigo-fonte"> <a href="" target="_blank"> Fortaleza Sentinela</p>
+        <p class="artigo-fonte"> <a href=""> Farol do Crepusculo</p>
+        <p class="artigo-fonte"> <a href=""> Gruta Sussurante</p>
+        <p class="artigo-fonte"> <a href=""> Fortaleza Sentinela</p>
         
         </div>
         </div>
         </div>
     </map>
     </header>
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>blog</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+          <img src="4944e592-d3c3-44e9-8dea-800d5b61d46e.jpg"Workplace" usemap="#workmap">
+<map name="workmap">
+    <div>
+        <h2>Farol do Crespusculo
+        </h2>
+        <p>O começo da jornada dos nossos hérois,</p>
+        <p>também aonde o mago '' '' vive em meditação, a luz que o farol emite se deve a sua magia que protege a ilha das ameaças, porém as coisas estão mudando...</p>
+          <p class="artigo-fonte"> <a href="index.html"> Voltar ao inicio</p>
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>blog</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+          <img src="Web_Photo_Editor.jpg" usemap="#workmap">
+<map name="workmap">
+    <div>
+        <h2>Fortaleza Sentinela</h2>
+        <p>A Principal base do ditador '' ''</p>
+        <p>O Final da nossa jornada, onde usaremos as chaves '' '' para derrotar o vilão</p>
+         <p class="artigo-fonte"> <a href="index.html"> Voltar ao inicio</p>
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>blog</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+          <img src="4944e592-d3c3-44e9-8dea-800d5b61d46e.png" usemap="#workmap">
+<map name="workmap">
+    <div>
+        <h2>Gruta Sussurante</h2>
+        <p>A caverna do '' ''</p>
+        <p>Uma das Três fortalezas do ditador '' '', lar de '' '', o monstro devorador de '' ''</p>
+        <p class="artigo-fonte"> <a href="index.html"> Voltar ao inicio</p>
+
+
+
+
 
 Style.CSs
 
@@ -47,7 +107,7 @@ Style.CSs
     .tema-escuro a {
      color: var(--cor-pão)
 }
-    --fonte-texto: 'Segoe UI', sans-serif;
+    --fonte-texto: 'Times new Roman', sans-serif;
 }
 
 
@@ -117,4 +177,13 @@ body {
  * {
     transition: background-color 1s ease;
 }
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 24px;
+}
+
 
